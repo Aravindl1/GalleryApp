@@ -1,0 +1,42 @@
+.container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.gallery-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-top: 32px;
+    margin-bottom: 32px;
+
+}
+
+.gallery-image {
+    border-radius: 18px;
+}
+
+.gallery-heading{
+    color: #065ae2;
+    font-family: 'Roboto';
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 24px;
+}
+
+.gallery-title {
+    color: #64748b;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.thumbnails-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0px;
+}
